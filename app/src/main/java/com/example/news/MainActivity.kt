@@ -26,7 +26,7 @@ class MainActivity : AppCompatActivity(), NewsItemClicked {
     }
 
     private fun fetchData() {
-        val url = "https://newsdata.io/api/1/news?apikey=pub_4163eed697bce3b6dbce9e63a4abfdd541f8&q=india"
+        val url = API_KEY_FROM: newsdata.io
         val jsonObjectRequest = JsonObjectRequest(
             Request.Method.GET, url, null,
             {
